@@ -1,0 +1,3 @@
+[('num', Pipeline(steps=[('imputer', SimpleImputer(strategy='median'))]), ['age', 'monthly_income', 'loan_amount', 'tenure_months', 'num_credit_lines', 'has_previous_default']), ('cat', Pipeline(steps=[('imputer', SimpleImputer(strategy='most_frequent')),
+                ('onehot',
+                 OneHotEncoder(handle_unknown='ignore', sparse_output=False))]), ['job_type', 'education_level', 'city', 'marital_status'])]

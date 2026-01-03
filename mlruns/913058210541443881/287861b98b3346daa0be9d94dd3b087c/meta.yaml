@@ -1,0 +1,15 @@
+artifact_uri: file:D:/SMSML_EkoAndriPrasetyo/Membangun_model/mlruns/913058210541443881/287861b98b3346daa0be9d94dd3b087c/artifacts
+end_time: 1767448207499
+entry_point_name: ''
+experiment_id: '913058210541443881'
+lifecycle_stage: active
+run_id: 287861b98b3346daa0be9d94dd3b087c
+run_name: rf-pipeline-autolog
+run_uuid: 287861b98b3346daa0be9d94dd3b087c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767448202769
+status: 3
+tags: []
+user_id: nikop_ovs15cq

@@ -1,0 +1,14 @@
+digest: 55cbaf81
+name: dataset
+profile: '{"num_rows": 400, "num_elements": 4000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "age", "required": true},
+  {"type": "double", "name": "monthly_income", "required": true}, {"type": "double",
+  "name": "loan_amount", "required": true}, {"type": "double", "name": "tenure_months",
+  "required": true}, {"type": "double", "name": "num_credit_lines", "required": true},
+  {"type": "string", "name": "job_type", "required": true}, {"type": "string", "name":
+  "education_level", "required": true}, {"type": "string", "name": "city", "required":
+  true}, {"type": "string", "name": "marital_status", "required": true}, {"type":
+  "double", "name": "has_previous_default", "required": true}]}'
+source: '{"tags": {"mlflow.user": "nikop_ovs15cq", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
