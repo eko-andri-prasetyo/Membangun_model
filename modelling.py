@@ -21,6 +21,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, ConfusionMatrixDisplay
 from sklearn.ensemble import RandomForestClassifier
 
+
+
+mlflow.set_tracking_uri("https://dagshub.com/eko-andri-prasetyo/Membangun_model.mlflow")
+mlflow.set_experiment("creditscoring-MSML")
+
+
 DATA_PATH = Path("creditscoring_preprocessing/creditscoring_preprocessed.csv")
 TARGET_COL = "target"
 
